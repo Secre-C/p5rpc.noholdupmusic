@@ -1,0 +1,21 @@
+{
+  "ModId": "p5rpc.noholdupmusic",
+  "ModName": "No Hold Up Music",
+  "ModAuthor": "SecreC.",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Prevents the music from changing at the start of a hold up.",
+  "ModDll": "p5rpc.noholdupmusic.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/p5rpc.noholdupmusic.dll",
+  "ModR2RManagedDll64": "x64/p5rpc.noholdupmusic.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "p5rpc.noholdupmusic.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks", "Reloaded.Memory.SigScan.ReloadedII" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [ "p5r.exe" ],
+  "ProjectUrl": ""
+}
