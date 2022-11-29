@@ -35,6 +35,15 @@ namespace p5rpc.noholdupmusic
                     memory.SafeWrite(begMusicStart, (byte)0xeb);
                 }
             });
+
+            startupScanner.AddMainModuleScan("74 ?? BA 55 01 00 00 49 8B CC", (result) =>
+            {
+                long begMusicStart = result.Offset + baseAddress;
+                if (result.Found)
+                {
+                    memory.SafeWrite(begMusicStart, (byte)0xeb);
+                }
+            });
         }
     }
 }
